@@ -1,0 +1,114 @@
+*{ margin: 0;
+
+}
+body{
+    background: rgb(239, 239, 239);
+}
+
+header{
+    background-color: aquamarine;
+    height: 100px;
+    width:100%;
+    display: flex;
+    position: fixed;
+}
+
+.headerTop{
+    color:purple;
+    width:40%;
+}
+
+.lista{
+   width:40%;
+    
+}
+
+.lista ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.lista li{
+    
+    /* background-color: rgb(0, 0, 0); */
+    padding: 10px;
+   
+    color:white;
+    text-align: center;
+   
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+a:hover{
+    background-color: white;
+    color:aquamarine;
+    padding: 10px;
+    
+}
+
+section{
+    background-color:aqua;
+    height: 700px;
+
+}
+
+footer{
+    background-color: orange;
+    height: 100px;
+}
+
+
+/* Css página Home */
+
+.textoHome{
+    color:white;
+}
+
+
+
+/* Css página Imagens */
+
+.sectionPagImg{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 1100px;
+
+}
+
+.b1{
+    background-image: url("https://s2-g1.glbimg.com/l7fUkvdovxaODjM-7_LKacF-pU4=/0x0:1700x1065/1008x0/smart/filters:strip_icc()/s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/photos/apis/b03aa813eaaa4e059f069c843d77415a/selfie.jpg");
+    width:280px;
+    height:250px;
+    background-size: 400px;
+}
+.b2{
+    background-image: url("https://t.ctcdn.com.br/iyFcPzY4I-q1tAbTgNxf52VReXA=/640x360/smart/i767052.jpeg");
+    width:280px;
+    height:250px;
+    background-size: 500px;
+}
+.b3{
+    background-image: url("https://fly.metropoles.cloud/upload/q_85,w_600/https://uploads.metropoles.com/wp-content/uploads/2023/07/11110114/Macaco-3-1.jpg");
+    width:280px;
+    height:250px;
+    background-size: 400px;
+}
+.b4{
+    background-image: url("https://imagens.ebc.com.br/6oNqDq2rMCAo6JWIi7oNjjUGrgY=/754x0/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/_macaco-prego-do-peito-amarelo_bioparque-rio1111202706.jpg?itok=xTIfEWCN");
+    width:280px;
+    height:250px;
+    background-size: 400px;
+}
+
+
+/* Css página Vídeos */
