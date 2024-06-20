@@ -10,7 +10,6 @@ header{
     height: 100px;
     width:100%;
     display: flex;
-    position: fixed;
 }
 
 .headerTop{
@@ -81,7 +80,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 1100px;
+    height: 500px;
 
 }
 
@@ -112,3 +111,18 @@ footer{
 
 
 /* Css página Vídeos */
+
+
+/* versao celular */
+
+@media only screen and (min-width:000px) and (max-width:1150px) {
+    .sectionPagImg{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height:1200px;
+       
+    }
+        
+}
